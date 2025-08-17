@@ -17,8 +17,8 @@ git clone https://github.com/Zeshan495/MTProxyInstaller
 cd MTProxyInstaller
 chmod +x mtx.sh
 
-# 2) Install the official C proxy on port 443 (recommended)
-sudo ./mtx.sh install --impl c --port 443 --tls www.microsoft.com --ad-tag
+# 2) Install the official C proxy on port 8443 (recommended)
+sudo ./mtx.sh install --impl c --port 8443 --tls www.microsoft.com --ad-tag
 # Replace 1234567890abcdef1234567890abcdef with your actual promo tag (32 hex chars) from @MTProxybot.
 
 #    …or install the Python proxy (uses a Python 3.10 venv)
